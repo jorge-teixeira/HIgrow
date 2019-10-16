@@ -1,0 +1,21 @@
+#---HiGrow Plantmeter--------------------------------------------------------------------------------------------------
+- platform: mqtt
+  name: Planta temperatura
+  state_topic: "smart/room/flower"
+  value_template: "{{ value_json.temperature }}"
+  unit_of_measurement: "°C"
+- platform: mqtt
+  name: Planta humidade Solo
+  state_topic: "smart/room/flower"
+  value_template: "{{ value_json.water }}"
+  unit_of_measurement: ""
+- platform: mqtt
+  name: Planta humidade ambiente
+  state_topic: "smart/room/flower"
+  value_template: "{{ value_json.humidity }}"
+  unit_of_measurement: "%"
+- platform: mqtt
+  name: Planta luz
+  state_topic: "smart/room/flower"
+  value_template: "{{ value_json.light }}"
+  unit_of_measurement: ""
