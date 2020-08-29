@@ -1,4 +1,4 @@
-<h2>This is my first contribution to the community .. i just implemented MQTT broker authentication via user and passwordfound little information about this device ... hope it is useful <h2>
+<h2>This is my first contribution to the community .. i just implemented MQTT broker authentication via user and password i found little information about this device ... hope it is useful <h2>
 
 Great info and review about the higrow 
 https://flashgamer.com/blog/comments/review-of-higrow-esp32-moisture-and-temperature-sensor
